@@ -1,1 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TWT</title>
+<meta name="description" content="what you write and for whom	API and developer documentation for SaaS and fintech products">
+<meta property="og:title" content="TWT — Technical Writer">
+<meta name="theme-color" content="#FCFCFA">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ===== SIDEBAR TOC ===== -->
+  <nav class="toc" aria-label="Table of contents">
+    <span class="toc__mark">TWT</span>
+    <ol class="toc__list">
+      <li><a href="#about" class="toc__link"><svg class="toc__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 20c1.5-4 5-6 7.5-6s6 2 7.5 6"/></svg>01 — About</a></li>
+      <li><a href="#work" class="toc__link"><svg class="toc__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="7.5" width="17" height="12" rx="1.5"/><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"/></svg>02 — Work</a></li>
+      <li><a href="#skills" class="toc__link"><svg class="toc__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h6M4 12h10M4 17h7"/><circle cx="14" cy="7" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg>03 — Skills</a></li>
+      <li><a href="#contact" class="toc__link"><svg class="toc__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5"/><path d="m4.5 7 7.5 6 7.5-6"/></svg>04 — Contact</a></li>
+    </ol>
+    <div class="toc__meta">
+      <span>Hyderabad, India</span>
+      <span>Available for work</span>
+    </div>
+  </nav>
+
+  <!-- ===== MAIN DOC ===== -->
+  <main class="doc">
+
+    <header class="doc__header">
+      <!-- assets/profile.svg is a placeholder silhouette. Replace it: drop
+           your own square photo (e.g. 400x400px, .jpg or .png) into /assets
+           and change the src below to match, e.g. assets/profile.jpg.
+           To skip a photo entirely, delete this img tag. -->
+      <img class="doc__photo" src="assets/logo.png" alt="TWT logo" width="120" height="120">
+      <p class="eyebrow"> Technical Writer</p>
+      <h1>TWT</h1>
+      <p class="doc__sub">meta description	Technical Writer with experience in for SaaS and fintech products</p>
+    </header>
+
+    <section id="about" class="doc__section">
+      <h2><svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 20c1.5-4 5-6 7.5-6s6 2 7.5 6"/></svg><span class="num">01</span> About</h2>
+      <p class="lede">meta description	Technical Writer with experience in for SaaS and fintech products,	API and developer documentation for SaaS and fintech products</p>
+      <p>Having trained more than 1,000 professionals in technical documentation, Punit helps writers build practical, hands-on skills so they can earn jobs and respect on their own terms — with 23+ years in writing, including two decades in technical documentation and leadership of multiple documentation teams.</p>
+    </section>
+
+    <section id="work" class="doc__section">
+      <h2><svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="7.5" width="17" height="12" rx="1.5"/><path d="M8.5 7.5V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"/></svg><span class="num">02</span> Work</h2>
+
+      <!-- Category filter — edit the label/data-filter pairs to match your own categories.
+           "All" is required; every other button's data-filter must match an
+           entry's data-category exactly (case-sensitive). -->
+      <div class="filter-bar" role="tablist" aria-label="Filter work samples by category">
+        <button class="filter-chip is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-chip" data-filter="api-docs" role="tab" aria-selected="false">API Docs</button>
+        <button class="filter-chip" data-filter="docs-as-code" role="tab" aria-selected="false">Docs-as-Code</button>
+        <button class="filter-chip" data-filter="content-strategy" role="tab" aria-selected="false">Content Strategy</button>
+      </div>
+
+      <div class="entry-list">
+        <!-- Duplicate an .entry block per sample. data-category must match one
+             of the data-filter values above. The link should point straight
+             at the sample file — a hosted doc page, a PDF, or a file in this
+             same repo (e.g. "samples/api-reference.pdf"). -->
+        <article class="entry" data-category="api-docs">
+          <div class="entry__head">
+            <h3>Tech Writer's Tribe</h3>
+            <span class="entry__date">2020</span>
+          </div>
+          <span class="entry__tag">API Docs</span>
+          <p>Having trained more than 1,000 professionals in technical documentation, Punit helps writers build practical, hands-on skills so they can earn jobs and respect on their own terms — with 23+ years in writing, including two decades in technical documentation and leadership of multiple documentation teams.</p>
+          <a class="entry__link" href="https://techwriterstribe.com/twt_ws_gitpages/">Read the docs →</a>
+        </article>
+
+        <article class="entry" data-category="docs-as-code">
+          <div class="entry__head">
+            <h3>Company 2</h3>
+            <span class="entry__date">2017</span>
+          </div>
+          <span class="entry__tag">Docs-as-Code</span>
+          <p>Having trained more than 1,000 professionals in technical documentation, Punit helps writers build practical, hands-on skills so they can earn jobs and respect on their own terms — with 23+ years in writing, including two decades in technical documentation and leadership of multiple documentation teams.</p>
+          <a class="entry__link" href="https://techwriterstribe.com/twt_ws_gitpages/">Read the docs →</a>
+        </article>
+
+        <article class="entry" data-category="content-strategy">
+          <div class="entry__head">
+            <h3>Company 3</h3>
+            <span class="entry__date"2016</span>
+          </div>
+          <span class="entry__tag">Content Strategy</span>
+          <p>Having trained more than 1,000 professionals in technical documentation, Punit helps writers build practical, hands-on skills so they can earn jobs and respect on their own terms — with 23+ years in writing, including two decades in technical documentation and leadership of multiple documentation teams.</p>
+          <a class="entry__link" href="https://techwriterstribe.com/twt_ws_gitpages/">Read the docs →</a>
+        </article>
+      </div>
+
+      <p class="filter-empty" hidden>No samples in this category yet.</p>
+    </section>
+
+    <section id="skills" class="doc__section">
+      <h2><svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h6M4 12h10M4 17h7"/><circle cx="14" cy="7" r="1.6"/><circle cx="17" cy="17" r="1.6"/></svg><span class="num">03</span> Skills</h2>
+      <div class="skills-table">
+        <div class="skills-row">
+          <span class="skills-row__label">Writing</span>
+          <span>[API reference, tutorials, release notes, style guides]</span>
+        </div>
+        <div class="skills-row">
+          <span class="skills-row__label">Tooling</span>
+          <span>[Docusaurus, MkDocs, Git, Markdown, reST]</span>
+        </div>
+        <div class="skills-row">
+          <span class="skills-row__label">Adjacent</span>
+          <span>[Basic HTML/CSS, OpenAPI, Figma]</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="doc__section">
+      <h2><svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5"/><path d="m4.5 7 7.5 6 7.5-6"/></svg><span class="num">04</span> Contact</h2>
+      <p class="lede">Open to opportunities — reach out.</p>
+
+      <div class="contact-links">
+        <a href="mailto:newsletter.twt@gmail.com">newsletter.twt@gmail.com</a>
+        <a href="https://www.linkedin.com/company/tech-writers-tribe/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/TW-Tribe" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+
+      <!-- Contact form: GitHub Pages only serves static files, it can't
+           process form submissions on its own. This form is wired for
+           Formspree (free tier, no backend needed):
+             1. Sign up at formspree.io and create a form
+             2. Replace YOUR_FORM_ID below with the ID Formspree gives you
+             3. Submissions land in your Formspree inbox / forward to email
+           Swap the action URL for any other form service the same way
+           (Netlify Forms, Getform, etc.) if you prefer. -->
+      <form class="contact-form" action="https://formspree.io/f/xzepazeb" method="POST">
+        <div class="form-row">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-email">Email</label>
+          <input id="cf-email" name="_replyto" type="email" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Send message</button>
+      </form>
+    </section>
+
+    <footer class="doc__footer">
+      <span>TWT · last updated August 2026</span>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+  // Highlight the current section in the sidebar TOC as the reader scrolls
+  const links = document.querySelectorAll('.toc__link');
+  const sections = document.querySelectorAll('.doc__section');
+  const setActive = () => {
+    let current = sections[0]?.id;
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 120) current = s.id;
+    });
+    links.forEach(l => l.classList.toggle('is-active', l.getAttribute('href') === '#' + current));
+  };
+  document.addEventListener('scroll', setActive, { passive: true });
+  setActive();
+
+  // Filter work samples by category
+  const chips = document.querySelectorAll('.filter-chip');
+  const entries = document.querySelectorAll('.entry[data-category]');
+  const emptyMsg = document.querySelector('.filter-empty');
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => { c.classList.remove('is-active'); c.setAttribute('aria-selected', 'false'); });
+      chip.classList.add('is-active');
+      chip.setAttribute('aria-selected', 'true');
+
+      const filter = chip.dataset.filter;
+      let visibleCount = 0;
+      entries.forEach(entry => {
+        const match = filter === 'all' || entry.dataset.category === filter;
+        entry.hidden = !match;
+        if (match) visibleCount++;
+      });
+      if (emptyMsg) emptyMsg.hidden = visibleCount !== 0;
+    });
+  });
+</script>
+
+</body>
+</html>
